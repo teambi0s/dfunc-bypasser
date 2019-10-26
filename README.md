@@ -1,4 +1,4 @@
-<img src="images/banner.png" style="text-align:center"/>
+<div style="text-align:center"><img src="images/banner.png" /></div>
 
 # Dfunc-Bypasser
 This is a tool that can be used by developers to check if exploitation using LD_PRELOAD is still possible given the current disable_functions in the php.ini file and taking into consideration the PHP modules installed on the server.
@@ -16,13 +16,12 @@ There are two options to input the disable_functions list:
 `python dfunc-bypasser.py --file dir/phpinfo`
 
 ## Contributers
-1. Tarunkant Gupta
-    * Github: [tarunkant](https://github.com/tarunkant/)
-    * Twitter: [TarunkantG](https://twitter.com/TarunkantG)
-2. S Ashwin Shenoi
+1. S Ashwin Shenoi
     * Github: [ashwinshenoi99](https://github.com/ashwinshenoi99)
     * Twitter: [c3rb3ru5](https://twitter.com/__c3rb3ru5__)
-
+2. Tarunkant Gupta
+    * Github: [tarunkant](https://github.com/tarunkant/)
+    * Twitter: [TarunkantG](https://twitter.com/TarunkantG)
 
 from team [bi0s](https://bi0s.in)
 
