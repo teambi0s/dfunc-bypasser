@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="images/banner.png" /></div>
+<p align="center"><img src="images/banner.png" /></p>
 
 # Dfunc-Bypasser
 This is a tool that can be used by developers to check if exploitation using LD_PRELOAD is still possible given the current disable_functions in the php.ini file and taking into consideration the PHP modules installed on the server.
