@@ -88,4 +88,4 @@ if("imagick" in modules):
     print '\nPHP-imagick module is present. It can be exploited using LD_PRELOAD method\n'
 
 if("PHP-FPM"):
-    print "If PHP-FPM is there stream_socket_sendto,stream_socket_client,fsockopen can also be used to be exploit using LD_PRELOAD method"
+    print "If PHP-FPM is there stream_socket_sendto,stream_socket_client,fsockopen can also be used to be exploit by poisoning the request to the unix socket\n"
